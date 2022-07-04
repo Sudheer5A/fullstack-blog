@@ -1,0 +1,82 @@
+.blog {
+  width: 20%;
+  height: 25vw;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  border-radius: 10px;
+  align-items: center;
+  box-shadow: 0px 10px 30px rgba(119, 209, 251, 0.6);
+}
+
+.textInfo {
+  width: 90%;
+}
+
+.textInfo p {
+  font-size: 0.8rem;
+}
+
+.textInfo p span {
+  cursor: pointer;
+  color: blue;
+}
+
+#blogImage {
+  height: 10rem;
+  width: 100%;
+  border-radius: 10px;
+  position: relative;
+  background-color: #000;
+  overflow: hidden;
+}
+
+#title {
+  font-size: 1.3rem;
+  margin-top: 1rem;
+}
+
+#message {
+  width: 100%;
+  margin-top: 0.5rem;
+  opacity: 0.8;
+}
+
+.blogFooter {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  background: #000;
+  border-radius: 5px;
+  text-align: end;
+  padding: 0 5px;
+}
+
+.deleteBtn {
+  position: absolute;
+  bottom: 5%;
+  background: rgba(255, 255, 255, 0.2);
+  /* backdrop-filter: blur(20px);
+  width: 100%; */
+}
+
+.deleteBtn button {
+  background: black;
+  padding: 5px 15px;
+  color: #fff;
+  border-radius: 10px;
+  font-family: "Poppins";
+  font-size: 0.7rem;
+  border: none;
+}
+
+.deleteBtn button:hover {
+  background: red;
+}
+
+.blogFooter em {
+  font-size: 0.5rem;
+  color: #fff;
+  margin-top: 0.1rem;
+  margin-bottom: 0.1rem;
+}

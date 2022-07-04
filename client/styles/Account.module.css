@@ -1,0 +1,79 @@
+.account {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+
+.accountHeader {
+  height: 5rem;
+  width: 100%;
+  background: #000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+}
+
+.accountInfo {
+  color: #fff;
+  width: 14%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.accountInfo a {
+  cursor: pointer;
+  font-size: 0.7rem;
+  color: red;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 3px 10px;
+  border-radius: 5px;
+}
+
+#userImg {
+  height: 3rem;
+  position: relative;
+  width: 3rem;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.accountHeader button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #fff;
+  background: #000;
+  font-family: "Poppins";
+}
+
+.accountBody {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.accountBody h2 {
+  margin-left: 5rem;
+  margin-top: 1rem;
+}
+
+.accountBlogs {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 3rem;
+  padding: 2rem 2rem;
+}

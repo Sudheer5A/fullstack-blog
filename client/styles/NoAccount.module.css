@@ -1,0 +1,25 @@
+.noaccount {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.noaccount button {
+  height: 3rem;
+  width: 6rem;
+  border: none;
+  outline: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: #fff;
+  background: #000;
+  font-family: "Poppins";
+  cursor: pointer;
+  margin-top: 2rem;
+}
+
+.noaccount button:hover {
+  background: rgba(0, 0, 0, 0.8);
+}
